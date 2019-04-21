@@ -1,0 +1,3 @@
+goodByePhrase = 'Hasta la vista'
+person = 'baby'
+print(goodByePhrase + ', ' + person + '!')
