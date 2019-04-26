@@ -1,3 +1,3 @@
 num = int(input())
 x = num % 2
-print(num + x)
+print(num + 2 - x)
