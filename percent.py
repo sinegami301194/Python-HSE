@@ -1,0 +1,6 @@
+p, x, y = float(input()), float(input()), float(input())
+eps = 10**(-5)
+deposit = (x * 100 + y) * (1 + p / 100)
+rub = int(deposit // 100 + eps)
+kop = int(deposit % 100 + eps)
+print(rub, kop, end='')
