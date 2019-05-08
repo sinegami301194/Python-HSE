@@ -33,13 +33,13 @@ if K >= len(A):
     passingScore = 0
 elif A[0].total_score == A[K].total_score:
     passingScore = 1
-elif A[0].total_score != A[K].total_score and \
+elif K < len(A) and A[0].total_score != A[K-1].total_score and \
      A[K-1].total_score == A[K].total_score:
-    while A[K - 1].total_score < A[K - 2].total_score:
+    while A[K].total_score == A[K - 1].total_score:
         K -= 1
     passingScore = A[K-1].total_score
 else:
     passingScore = A[K-1].total_score
-print(passingScore, file=outFile)
+print(passingScore, end='', file=outFile)
 inFile.close()
 outFile.close()
