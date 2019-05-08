@@ -1,5 +1,5 @@
 str = input() # Write string from console
-print(str[2])
+print(str[2]) # Print third element
 print(str[-2])
 print(str[:5])
 print(str[:-2])
