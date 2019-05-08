@@ -1,4 +1,4 @@
-A = int(input())
+A = int(input()) # Creating number
 if A % 400 == 0:
     print('YES', end='')
 else:
