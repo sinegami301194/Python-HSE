@@ -1,5 +1,5 @@
-a, b, c = float(input()), float(input()), float(input())
-d, e, f = float(input()), float(input()), float(input())
+a, b, c = float(input()), float(input()), float(input()) # Creating the float numbers
+d, e, f = float(input()), float(input()), float(input()) # Creating the float numbers
 if b != 0:
     y = (c * e - a * f) / (b * c - a * d)
     if c != 0:
