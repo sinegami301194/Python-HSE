@@ -1,4 +1,4 @@
-str = input()
+str = input() # Write string from console
 print(str[2])
 print(str[-2])
 print(str[:5])
