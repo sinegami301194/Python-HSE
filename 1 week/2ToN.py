@@ -1,2 +1,2 @@
-n = int(input())
-print(2**n)
+n = int(input()) # Input integer num
+print(2**n) # Square the number
