@@ -1,2 +1,2 @@
-name = input()
-print("Hello, ", name, "!", sep='')
+name = input() # Input string name
+print("Hello, ", name, "!", sep='') # Print the phrase
