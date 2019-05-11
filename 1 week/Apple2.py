@@ -1,3 +1,3 @@
-N = int(input())
-K = int(input())
-print(K %N)
+N = int(input()) # Creation integer number
+K = int(input()) # Creation integer number
+print(K % N) # Print remainder of the division
