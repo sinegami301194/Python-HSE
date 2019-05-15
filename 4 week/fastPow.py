@@ -1,4 +1,4 @@
-def deg(a, n):
+def deg(a, n): # Declaration of function
     if n == 1:
         return a
     if n != 0:
