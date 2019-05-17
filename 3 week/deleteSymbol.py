@@ -1,3 +1,3 @@
-s = input()
-st = s.replace('@', '')
-print(st, end='')
+s = input() # Input a string
+st = s.replace('@', '') # Replace all symbol '@'
+print(st, end='') # Print result
