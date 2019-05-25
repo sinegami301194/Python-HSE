@@ -8,4 +8,4 @@ m1 = mm // 10
 m2 = mm % 10
 hh1 = N // 3600
 hh = hh1 % 24
-print(hh, ':', m1, m2, ':', s1, s2, sep='')
+print(hh, ':', m1, m2, ':', s1, s2, sep='') # Print value
