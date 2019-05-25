@@ -1,2 +1,2 @@
-num = int(input())
-print(1-num)
+num = int(input()) # Input the integer
+print(1-num) # Print solution
