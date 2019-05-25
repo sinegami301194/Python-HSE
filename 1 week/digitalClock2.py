@@ -1,4 +1,4 @@
-N = int(input())
+N = int(input()) # Input the integer
 ss = N % 60
 s1 = ss // 10
 s2 = ss % 10
