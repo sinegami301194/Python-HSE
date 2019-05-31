@@ -1,4 +1,4 @@
-N = int(input())
+N = int(input()) # Input the number
 P1 = "   _~_    "
 P2 = "  (o o)   "
 P3 = " /  V  \  "
